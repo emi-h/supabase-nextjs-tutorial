@@ -1,3 +1,3 @@
 ## Learning Supabase with Next.js
 
-[Supabase クイックスタート：Next.js](https://www.supabase.jp/docs/guides/with-nextjs)
+[Supabase Quickstart: Next.js](https://supabase.com/docs/guides/with-nextjs#launch)
