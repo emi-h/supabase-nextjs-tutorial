@@ -483,3 +483,11 @@ button.primary,
   margin-bottom: 10px;
   text-decoration: none;
 }
+
+h3 {
+  margin: .5em 0;
+}
+
+p {
+  margin: 0;
+}
