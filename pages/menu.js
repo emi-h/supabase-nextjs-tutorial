@@ -58,8 +58,8 @@ export default function Menu({ menuArray }) {
       }
 
       // クリックしたらchecked反転
-      // const handleClick = (e) => {
-      // }
+      const handleClick = (e) => {
+      }
       return (
             <div className="container" style={{ padding: '50px 0 100px 0' }}>
                   <h2>メニュー一覧</h2>
