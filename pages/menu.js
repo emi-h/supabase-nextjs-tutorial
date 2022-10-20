@@ -2,7 +2,7 @@
 import { useState } from 'react'
 import styles from '../styles/Home.module.css'
 import { supabase } from '../utils/supabaseClient'
-import { IngredienceList } from './IngredienceList'
+import { IngredienceList } from '../components/IngredienceList'
 
 export async function getStaticProps() {
       const { data: menuArray, error } = await supabase.from('menuArray').select('*')
@@ -60,6 +60,7 @@ export default function Menu({ menuArray }) {
       // クリックしたらchecked反転
       const handleClick = (e) => {
       }
+
       return (
             <div className="container" style={{ padding: '50px 0 100px 0' }}>
                   <h2>メニュー一覧</h2>

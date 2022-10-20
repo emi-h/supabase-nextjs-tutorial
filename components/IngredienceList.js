@@ -26,10 +26,10 @@ export const IngredienceList = ({ ingredienceObj }) => {
       )
 }
 
-const ingreObj1 = {
-      犬1: "しば",
-      inu2: "ぽめ"
-}
+// const ingreObj1 = {
+//       犬1: "しば",
+//       inu2: "ぽめ"
+// }
 
 // const IngreList = ({ ingreObj }) => {
 //       console.log("ingreObj", ingreObj);
